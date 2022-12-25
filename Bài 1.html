@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x=prompt("Hãy nhập kí tự bất kì");
+    if (checkcharacter(x)===true)
+    {
+        document.write(+x+ " "+"là kí tự số");
+    }else{ document.write("Không phải kí tự số");
+    }
+    function checkcharacter(char)
+    {
+        if(char>='0'&&char<='9')
+            return true;
+        return false;
+    }
+    document.write(Math.round(3.5));
+</script>
+</body>
+</html>
